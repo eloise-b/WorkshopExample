@@ -19,3 +19,4 @@ def test_integrate_trapz_2():
 def test_integrate_trapz_failure():
     with pytest.raises(Exception):
         integrate_trapz("Some", "Values")
+
